@@ -4,20 +4,20 @@ class MyOOP {
 	
 	public static void main(String[] args) {
 		//..
-		Print.delimiter = "----";
 		
-		Print.A();
-		Print.A();
-		Print.B();
-		Print.B();
+		Print p1 = new Print("----");
 		
-		Print.delimiter = "****";
+		p1.A();
+		p1.A();
+		p1.B();
+		p1.B();
 		
+		Print p2 = new Print("****");
 		
-		Print.A();
-		Print.A();
-		Print.B();
-		Print.B();
+		p1.A();
+		p1.A();
+		p1.B();
+		p1.B();
 	}
 
 	
